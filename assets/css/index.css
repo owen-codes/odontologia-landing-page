@@ -410,16 +410,15 @@ footer {
     text-align: center;
 }
 
-.footer-info {
-    margin-top: 3rem;
-    background-color: black;
+.footer-terms {
+    background-color: #2250c5;
     color: white;
     display: flex;
-    justify-content: space-between;
-    padding-inline: 5rem;
+    justify-content: space-evenly;
+    padding: 1rem;
 }
 
-.footer-info a {
+.footer-terms a{
     color: white;
 }
 
@@ -456,6 +455,36 @@ footer {
         gap: 4rem;
     }
 
+}
+
+.btn,
+.btn-about,
+.cta {
+    transition: .5s;
+}
+
+.btn:hover,
+.btn-about:hover,
+.cta:hover {
+    background-color: var(--thertyary-color);
+    transform: scale(1.05); 
+    transition: .5s;
+    color: black;
+    border: 3px solid var(--primary-color);
+}
+
+
+.navbar .nav-links a:hover {
+    color: var(--primary-color); 
+    border-bottom: 2px solid var(--primary-color); 
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+
+.menu a:hover {
+    background-color: var(--thertyary-color);
+    color: white;
+    transition: 0.3s ease;
 }
 
 @media (max-width: 826px) {
