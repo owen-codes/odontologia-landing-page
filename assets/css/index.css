@@ -500,8 +500,9 @@ footer {
         display: block;
     }
 
-       
-    
+    .top-bar {
+        display: none;
+    }
  }
 
 
